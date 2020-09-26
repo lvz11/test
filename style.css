@@ -1,0 +1,198 @@
+@font-face {
+    /* font-test*/
+    font-family: 'Chancery';
+    src:url('font/Apple\ Chancery.ttf')
+    }
+
+body { 
+    color: #fbb03b;
+    margin: 0; 
+    font-family: Chancery;
+    font-size: 40px;
+    overflow: hidden; 
+
+}
+#music{
+    
+}
+.container{
+    
+    z-index: 2;
+    position: absolute;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 100%;
+    height: 100%;
+}
+.item{
+    /* border: solid white; */
+}
+.notItem{
+    /* border: solid white; */
+}
+
+#imageeee{
+    z-index: 1;
+    position: absolute;
+    bottom: 6%;
+    right: 0%;
+    height: 40%;
+    width: 30%;
+}
+
+.dispear{
+    display: none;
+}
+
+#myName{
+    
+    width: 180px;
+    height: 37px;
+    border: solid #fbb03b;
+    border-top: rgba(0,0,0,0);
+    border-left: rgba(0,0,0,0);
+    border-right: rgba(0,0,0,0);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color:rgba(0,0,0,0)
+    /* background-image:url('image/') */
+}
+
+#text{
+    position: absolute;
+    left: 5%;
+    bottom: 15%;
+    z-index: 2;
+    font-size: 30px;
+}
+#text2{
+    position: absolute;
+    left: 30%;
+    top: 12%;
+    z-index: 2;
+}
+
+p{
+    display: inline;
+}
+
+.input{
+    
+    color: #fbb03b;
+    font-family: Chancery;
+    font-size: 30px;
+    display: inline;
+}
+
+.button{
+    position: absolute;
+    bottom: -70px;
+    left: 40%;
+    /* border: solid white; */
+    border-bottom: rgba(0,0,0,0);
+    border-top: rgba(0,0,0,0);
+    border-left: rgba(0,0,0,0);
+    border-right: rgba(0,0,0,0);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color: #fbb03b;
+    font-family: Chancery;
+    font-size: 30px;
+    background-color: rgba(0,0,0,0);
+}
+
+#webgl-canvas { 
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    /* background: #ffffff; */
+}
+
+#flash{
+    margin-top: 1100px;
+    width: 20%;
+    height: 20%;
+    /* position: absolute; */
+    /* width: 100%;
+    height: 100%; */
+    /* z-index: 4; */
+}
+
+#ticket{
+    width: 20%;
+    height: 20%;
+    
+}
+#playground{
+    width: 20%;
+    height: 20%;
+}
+#scene444{
+    width: 20%;
+    height: 20%;
+}
+#picture{
+    width: 20%;
+    height: 20%;
+}
+#lightMouse{
+    width: 20%;
+    height: 20%;
+}
+#TVS{
+    width: 20%;
+    height: 20%;
+}
+#TVbutton{
+    z-index: 15;
+    position: absolute;
+    /* border: solid white; */
+    bottom: 2%;
+    left: 33%;
+    width: 40%;
+    height: 25%;   
+}
+#webcam-holder{
+    width: 20%;
+    height: 20%;
+}
+#scene78{
+    width: 20%;
+    height: 20%;
+}
+#scene8{
+    width: 20%;
+    height: 20%;
+}
+#ourselves{
+    width: 20%;
+    height: 20%;
+}
+#scene8Done{
+    z-index: 17;
+    position: absolute;
+    /* border: solid white; */
+    bottom: 20%;
+    left: 10%;
+    width: 80%;
+    height: 70%;
+}
+#animationCTRL{
+    z-index: 22;
+    position: absolute;
+    top: 0;
+    /* border: solid red; */
+    width: 100%;
+    height: 100%;
+}
+#final{
+    width: 20%;
+    height: 20%;
+}
+#logo{
+    position: absolute;
+    z-index: 0.5;
+    width: 8%;
+    left: 1%;
+    top: 1%;
+}
